@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="identityDbConnection-Web.config Connection String" description="identityDbConnection Connection String used in web.config by the application to access the database." defaultValue="Server=.;Database=abhyankars.identity_db;Trusted_connection=true; Connection Timeout=180" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\PetProjects\\Abhyankars\\IdentityAndAuth\\src\\IdentityServer\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='identityDbConnection']/@connectionString" />
+  </parameter>
+  <parameter name="IdentityServer.Web.IdentityStores.Context-Web.config Connection String" description="IdentityServer.Web.IdentityStores.Context Connection String used in web.config by the application to access the database." defaultValue="IdentityServer.Web.IdentityStores.Context_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\PetProjects\\Abhyankars\\IdentityAndAuth\\src\\IdentityServer\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='IdentityServer.Web.IdentityStores.Context']/@connectionString" />
+  </parameter>
+</parameters>
